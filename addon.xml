@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.seven" name="[B]SEVEN Repository[/B]" version="1.3" provider-name="SEVEN">
+	<extension point="xbmc.addon.repository" name="SEVEN Repository">
+		<info compressed="false">http://seven.5v.pl/plugins/addons.xml</info>
+		<checksum>http://seven.5v.pl/plugins/addons.xml.md5</checksum>
+		<datadir zip="true">http://seven.5v.pl/plugins</datadir>
+	</extension>
+	  <extension point="xbmc.addon.metadata">
+		<summary lang="en">SEVEN Repository</summary>
+		<description lang="en">Repozytorium dodatkow SEVEN Build. Wersja poprawiona. Support dla bildu na http://seven.5v.pl/</description>
+		<platform>all</platform>
+	  <assets>
+		<icon>icon.png</icon>
+	  </assets>
+	  </extension>
+</addon>
